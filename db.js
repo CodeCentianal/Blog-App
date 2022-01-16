@@ -14,23 +14,23 @@ console.log("connected to database!");
 
 // // //
 
-knex.schema
-  .createTable("fbsignup", (table) => {
-    table.increments("id");
-    table.string("firstname");
-    table.string("lastname");
-    table.string("dob");
-    table.string("gender");
-    table.string("address");
-    table.string("mobilenumber");
-    table.string("username");
-    table.string("password");
-    table.date("fb_account_date");
-    table.string("fb_profile_id");
-  })
-  .then(() => {
-    console.log("fb signup table is created!");
-  });
+// knex.schema
+//   .createTable("fbsignup", (table) => {
+//     table.increments("id");
+//     table.string("firstname");
+//     table.string("lastname");
+//     table.string("dob");
+//     table.string("gender");
+//     table.string("address");
+//     table.string("mobilenumber");
+//     table.string("username");
+//     table.string("password");
+//     table.date("fb_account_date");
+//     table.string("fb_profile_id");
+//   })
+//   .then(() => {
+//     console.log("fb signup table is created!");
+//   });
 
 // // fb login table is created for
 
