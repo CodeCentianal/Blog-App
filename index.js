@@ -13,8 +13,8 @@ require("./signup")(router, knex);
 
 // //for posting in specific account by username and password
 
-// app.use("/post", router);
-// require("./posts")(router, knex);
+app.use("/post", router);
+require("./posts")(router, knex);
 
 // //deleting of your account
 
